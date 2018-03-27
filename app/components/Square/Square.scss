@@ -1,0 +1,11 @@
+$width: 100px;
+$height: 100px;
+
+.square {
+  height: $height;
+  width: $width;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,21 @@
+{ 
+  "presets": [
+    [
+      "env", { "modules": false }], 
+      "react"
+    ],
+  "plugins": [
+    "react-hot-loader/babel", 
+    "transform-class-properties"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "env", 
+          "react"
+        ]
+      ]
+    }
+  }
+}
